@@ -1,8 +1,13 @@
-# React + Vite
+*remenber no person should work on same page other wise it will be conflit and end up a crash the page*
+*Clone the project Before satring to work (Only once for setting up project))*
+=>git clone < repolink  > 
+=>npm i (2)
+*Before working on project use this command*
+->git pull origin main /n (1)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*Common command for push the code in github*(3)
+->git init /n
+->git status  /n
+->git add .
+->git commit -m "first commit"
+->git push origin main
