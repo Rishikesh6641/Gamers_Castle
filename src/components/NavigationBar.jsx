@@ -13,11 +13,11 @@ export function NavigationBar() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto py-2">
-                            <Nav.Link className="px-4" href="#home">Home</Nav.Link>
+                            <Nav.Link className="px-4" href="/">Home</Nav.Link>
                             <Nav.Link className="px-4" href="#link">Our Products</Nav.Link>
                             <Nav.Link className="px-4" href="#about">About Us</Nav.Link>
                             <Nav.Link className="px-4" href="#contact">Contact Us</Nav.Link>
-                            <Nav.Link className="px-4" href="#signup">Sign in/ Sign Up</Nav.Link>
+                            <Nav.Link className="px-4" href="/signup">Sign in/ Sign Up</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

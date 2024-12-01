@@ -1,10 +1,17 @@
 import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import imgf from '../Images/img-featured.webp';
+import { CardsPage } from './CardsPage';
+import { CarouslePage } from './CarouslePage';
 export function AboutHome() {
     return (
         <div style={{ marginTop: '50px' }}>
+             <div>
+            <CarouslePage/>
+            <CardsPage/>
+            </div>
             <p><h3>About Gamer's <span style={{color:'red'}}>Castle</span></h3></p>
+           
             <hr></hr>
             <Container style={{ marginTop: '50px' }}>
                 <Row>
